@@ -1,0 +1,28 @@
+.previewContainer {
+  width: 50%;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+.jsonPreview {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.jsonPreviewPre {
+  height: 50rem;
+  overflow: auto;
+  border-radius: 0.4rem;
+  border: 1px solid lightgray;
+}
+
+@media (max-width: 425px) {
+  .jsonPreview {
+    flex-direction: column;
+  }
+  .previewContainer {
+    width: 100%;
+    margin: 0;
+  }
+  .jsonPreviewPre {
+    height: 19.5rem;
+  }
+}

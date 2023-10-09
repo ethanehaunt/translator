@@ -1,2 +1,3 @@
 # translator
-an Nexjs app to support multiple language translator using translate API
+
+an Nexjs app to support multiple language translation using translate API
