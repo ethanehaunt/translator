@@ -1,7 +1,7 @@
 
 export const translationOptions = [
-    { path: 'basic', label: 'Basic Text Translation' },
-    { path: 'file', label: 'File Translation' },
+    { path: '/translators/basic', label: 'Basic Text Translation' },
+    { path: '/translators/file', label: 'File Translation' },
 ];
 export const languageOptions = [
     { value: 'es', label: 'Spanish' },
